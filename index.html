@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Challenge Iniciante em Programação</title>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="logo">
+            <img class="logoImg" src="./imagem/Vector.png">
+            <h1 class="tittle">Descriptografador de mensagens</h1>
+        </div>
+        <div class="input-left">
+            <input class="text-input" id="inputTexto" type="text" placeholder="Digite seu texto...">
+
+        </div>
+        <div class="input-right">
+            <img  id="imgDir" src="./imagem/High quality products 1 1.png" alt="imgDir">
+            <h3 id="texto">Nenhuma mensagem encontrada</h3>
+            <textarea id="texto2" name="name" cols="30" rows="10">Digite um texto que você deseja criptografar ou descriptografar.</textarea>
+            <button id="copiar" type="button" name="button" onclick="copiar()">Copiar!</button>
+        </div>
+
+        <div  class="texImg">
+            <p class="textObs">Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div id="button-left">
+            <button type="button" id="btn-Criptografar" onclick="Criptografar()">Criptografar</button>
+            <button type="button" id="btn-Descriptografar"  onclick="Descriptografar()">Descriptografar</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
